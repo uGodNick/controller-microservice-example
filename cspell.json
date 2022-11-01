@@ -1,0 +1,24 @@
+{
+    "version": "0.2",
+    "enabled": true,
+    "language": "en",
+    "allowCompoundWords": true,
+    "dictionaries": [
+      "typescript",
+      "node",
+      "npm"
+    ],
+    "enabledLanguageIds": [
+      "typescript",
+      "javascript",
+      "json"
+    ],
+    "words": [
+      "vedom",
+      "nestjs",
+      "docsify",
+      "devme",
+      "commitlint"
+    ]
+  }
+  

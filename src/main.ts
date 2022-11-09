@@ -11,10 +11,10 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   /*const httpsOptions = {
     key: fs.readFileSync(
-      join(__dirname, '..', '..', '..', 'ssl', '83.229.35.162.key')
+      join(__dirname, '..', '..', '..', 'ssl', 'ssl.key')
     ),
     cert: fs.readFileSync(
-      join(__dirname, '..', '..', '..', 'ssl', '83.229.35.162.crt')
+      join(__dirname, '..', '..', '..', 'ssl', 'ssl.crt')
     )
   };*/
 
@@ -44,7 +44,7 @@ async function bootstrap() {
   app.enableCors();
   await app.init();
 
-  http.createServer(server).listen(3000);
+  http.createServer(server).listen(80);
   //https.createServer(httpsOptions, server).listen(443);
 }
 bootstrap();
